@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="header" style="text-align: center">Counter</h1>
+    <h2 class="counter" style="text-align: center">{{ session['count'] }} times</h2>
+    <div class="buttons-bar" style=" display: flex; justify-content: center;">
+        <a href="/add_two"><button style="background-color: green; margin: 0px 10px;">add two</button></a>
+        <a href="/destroy_session"><button style="background-color: red; margin: 0px 10px">reset</button></a>
+    </div>
+</body>
+</html>
